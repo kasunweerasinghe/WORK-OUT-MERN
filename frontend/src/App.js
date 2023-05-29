@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <div className="pages">
-          <Routes>
+          <Routes>x
             <Route 
               path="/" 
               element={user ? <Home /> : <Navigate to="/login" />} 
